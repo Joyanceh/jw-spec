@@ -346,6 +346,7 @@ class 名称中只能出现小写字符和破折号(dashe)(不是下划线,也�
 
 ## javascript编写规范
 
+[javasript.md](articles/javascript.md)
 
 
 以上文档是根据多个网上的文献资源跟文章整理的,仅供学习交流.
@@ -354,9 +355,9 @@ class 名称中只能出现小写字符和破折号(dashe)(不是下划线,也�
 参考文献:
 
 1、腾讯团队
-百度：[ecomfe/spec · GitHub ] [1]
+百度：[ecomfe/spec · GitHub ]
 
-[1]: https://link.zhihu.com/?target=https%3A//github.com/ecomfe/spec    "Baidu"
+[ecomfe/spec · GitHub ]: https://link.zhihu.com/?target=https%3A//github.com/ecomfe/spec    "Baidu"
 
 2、腾讯AlloyTeam：[Code Guide by @AlloyTeam] [2]
 
