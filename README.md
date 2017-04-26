@@ -227,15 +227,16 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 
 例如,CSS 校验器指出在 183 行有语法错误。 如果是单行单条声明,你就不会忽略这个错误;如果是单行多条声明的话,你就要仔细分析 避免漏掉错误了。
 
-    /* Single declarations on one line */ .span1 { width: 60px; }
+    /* Single declarations on one line */
+    .span1 { width: 60px; }
     .span2 { width: 140px; }
     .span3 { width: 220px; }
-    /* Multiple declarations, one per line */ .sprite {
-    display: inline-block;
-    6
-    width: 16px;
-    height: 15px;
-    background-image: url(../img/sprite.png);
+    /* Multiple declarations, one per line */
+    .sprite {
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        background-image: url(../img/sprite.png);
     }
     .icon .icon-home .icon-account
     { background-position: 0 0; }
@@ -268,6 +269,7 @@ MDN(Mozilla Developer Network)上一片非常好的关于 shorthand properties �
     .table > thead > tr > th { ... }
     .table > thead > tr > td { ... }
     // With nesting
+
     .table > thead > tr {
         > th { ... }
         > td { ... }
@@ -280,9 +282,12 @@ MDN(Mozilla Developer Network)上一片非常好的关于 shorthand properties �
 
     /* Bad example */
     /* Modal header */
+
     .modal-header {
     ... }
+
     /* Good example */
+
     /* Wrapping element for .modal-title and .modal-close */ .modal-header {
     ... }
 
@@ -318,11 +323,13 @@ class 名称中只能出现小写字符和破折号(dashe)(不是下划线,也�
 
     /* Bad example */
     span { ... }
-    .page-container #stream .stream-item .tweet .tweet-header .username { ... } .avatar { ... }
+    .page-container #stream .stream-item .tweet .tweet-header .username { ... }
+    .avatar { ... }
 
     /* Good example */
     .avatar { ... }
-    .tweet-header .username { ... } .tweet .avatar { ... }
+    .tweet-header .username { ... }
+    .tweet .avatar { ... }
 
 
 ### 代码组织
@@ -346,7 +353,7 @@ class 名称中只能出现小写字符和破折号(dashe)(不是下划线,也�
 
 ## javascript编写规范
 
-[javasript.md](articles/javascript.md)
+[javascript.md](articles/javascript.md)
 
 
 以上文档是根据多个网上的文献资源跟文章整理的,仅供学习交流.
@@ -359,11 +366,11 @@ class 名称中只能出现小写字符和破折号(dashe)(不是下划线,也�
 
 [ecomfe/spec · GitHub ]: https://link.zhihu.com/?target=https%3A//github.com/ecomfe/spec    "Baidu"
 
-2、腾讯AlloyTeam：[Code Guide by @AlloyTeam] [2]
+2、腾讯AlloyTeam：[Code Guide by @AlloyTeam]
 
-[2]:https://link.zhihu.com/?target=http%3A//alloyteam.github.io/CodeGuide/     "AlloyTeam"
+[Code Guide by @AlloyTeam]:https://link.zhihu.com/?target=http%3A//alloyteam.github.io/CodeGuide/     "AlloyTeam"
 
-3、GitHub：[Styleguide · GitHub][3]
+3、GitHub：[Styleguide · GitHub]
 
-[3]:https://link.zhihu.com/?target=https%3A//github.com/styleguide     "Styleguide · GitHub"
+[Styleguide · GitHub]:https://link.zhihu.com/?target=https%3A//github.com/styleguide     "Styleguide · GitHub"
 
